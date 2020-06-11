@@ -1,0 +1,380 @@
+#mainnavbar .nav-link {
+	font-family: 'El Messiri', sans-serif;
+	font-weight: 600;
+	font-size: 1.4rem;
+	}
+
+#mainnavbar .nav-link:hover {
+	color: #710c04
+}
+
+#mainnavbar {
+	background: rgba(0,0,0,0.1);
+}
+
+#mainnavbar.scrolled {
+  background-color: rgb(0,0,0,0.8); !important;
+  transition: background-color 200ms linear;
+}
+
+
+body {
+	background: url("images/wallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: 'El Messiri', sans-serif;
+	color: white
+}
+
+.story {
+	background: url("images/storywallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+}
+.players {
+	background: url("images/firewallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.npc {
+	background: url("images/npcwallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.enemies {
+	background: url("images/monster4.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.items {
+	background: url("images/itemwallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.world {
+	background: url("images/worldwallpaper.jpeg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.container .title:hover {
+	color: #710c04
+}
+
+.container .title {
+	color: white
+}
+
+.intro {
+	text-indent: 2rem
+}
+
+.header {
+	margin-top: 65px;
+}
+
+.main {
+	background: rgba(0,0,0,0.4);
+	background-size: cover;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 70%;               
+  background-color: rgb(200,200,200,0.2);
+  height: 1px;
+}
+
+.card {
+	background-color: rgb(0,0,0,0);
+	border: none;
+}
+
+footer {
+	background-color: rgb(0,0,0,0.8);
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+.cardlink {
+	color: #710c04;
+	font-weight: 800;
+}
+
+
+.portal {
+	background-color: rgb(0,0,0,0);
+	border: none;
+	text-indent: 2rem
+}
+
+/*Player Page statblocks start*/
+.top {
+  	position: absolute;
+  	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 2rem
+}
+
+.bottom {
+	position: absolute;
+  	top: 63%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+.stat {
+  	position: absolute;
+  	top: 25%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 0.6rem
+}
+
+.mod {
+	position: absolute;
+  	top: 53%;
+  	left: 47%;
+  	transform: translate(-50%, -50%);
+  	font-size: 2rem;
+}
+
+.total {
+	position: absolute;
+  	top: 80%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);	
+  	font-size: 1rem
+}
+
+
+/*Player Page stat bloxks end*/
+
+.playerhome{
+	background: url(images/card1.png); 
+	background-size: 100% 100%
+}
+
+.cardhome {
+	width: 200px;
+	height: 200px;
+	margin-top: 14px
+}
+
+.namlockhome {
+	width: 236px;
+	margin-top: -10px
+}
+
+.cardtitle {
+	padding-top: 15px;
+	font-size: 2rem;
+	color:black;
+}
+
+.cardtext {
+	padding-top: 2px;
+	font-size: 1rem;
+	color:black;
+}
+
+
+/*NPC*/
+
+.npcimg {
+	height: 300px;
+	width: 200px
+}
+
+.enemieimg:hover {
+	color: #710c04;
+}
+
+
+.overworld {
+	color: white;
+	background: url(images/overworld1.png);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.howling {
+	color: white;
+	background: url(images/stormy.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.blackearth {
+	color: white;
+	background: url(images/earth.jpg);
+	background-size: cover;
+	height: 350px
+}
+
+.wave {
+	color: white;
+	background: url(images/wavey.jpg);
+	background-size: cover;
+	height: 350px
+}
+
+.flame {
+	color: white;
+	background: url(images/volcano.jpg);
+	background-size: cover;
+	height: 350px
+}
+
+.tomb {
+	color: white;
+	background: url(images/tomb2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.lance {
+	color: white;
+	background: url(images/lancerock.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.stone {
+	color: white;
+	background: url(images/tombofstone.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.feather {
+	color: white;
+	background: url(images/feathergalespire.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.monastery {
+	color: white;
+	background: url(images/stonemonastery.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px
+}
+
+.enemieshead {
+  position: relative;
+}
+
+.btn-block {
+	background: rgba(0,0,0,0.8);
+	border: white solid 0px;
+	color:white;
+	margin-top: 300px
+}
+
+.enemieimg {
+	margin-top: 4px
+}
+
+.symbol {
+	height: 195px
+}
+
+.ebutton {
+	height: 350px
+}
+
+.itemcard{
+	background: url(images/itemcard.png); 
+	background-size: 100% 100%
+}
+
+.itemtitle {
+	padding-top: 22px;
+	font-size: 14px;
+	color:black;
+}
+
+.itemtext {
+	margin: 40px;
+	position: static;
+	font-size: 10px;
+	color:black;
+}
+
+.itemimg {
+	width: 160px;
+	height: 160px;
+	margin-top: 30px
+}
+
+.player {
+	background: rgba(0,0,0,0.7);
+	background-size: cover;
+}
+
+.dessarian{
+	float: left
+}
+
+.world p {
+	text-indent: 2rem;
+}
+
+.armor{
+	background: url(images/shield1.png);
+	background-size: cover;
+	background-position: center
+}
+
+.lvl{
+	background: url(images/stat.png);
+	background-size: cover;
+	background-position: center
+}
+
+.statbox {
+	background: url(images/statbox.png);
+	background-size: cover;
+	background-position: center
+}
+.worldimg {
+	width: 400px;
+	height: 300px;
+}
+
+
+
+.containerfit {
+	width: 95%
+}
